@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ObservationApp</string>
+    <string name="email">Username</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="createAcc">Create Account</string>
+    <string name="account">Don\'t have an account?</string>
+    <string name="signUp">Sign Up</string>
+    <string name="signIn">Sign In</string>
+    <string name="already">Already have an account?</string>
+    <string name="afterHour">After Hour</string>
+    <string name="addStocks">Add Symbol</string>
+    <string name="search">Search</string>
+    <string name="done">Done</string>
+    <string name="portfolioTitle">My Portfolio</string>
+    <string name="detailPage">Stock Detail</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+</resources>

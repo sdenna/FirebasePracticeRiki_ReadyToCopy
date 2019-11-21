@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="editTextWidth">293.3dp</dimen>
+    <dimen name="editTextHeight">53.3dp</dimen>
+    <dimen name="leftEditText">22.7</dimen>
+    <dimen name="smallText">13.3sp</dimen>
+    <dimen name="buttonRadius">2dp</dimen>
+    <dimen name="editTextTopMargin">10dp</dimen>
+    <dimen name="cardHeight">80dp</dimen>
+</resources>

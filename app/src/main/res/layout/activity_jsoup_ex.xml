@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/sign_in_toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="76.7dp"
+        android:layout_height="76.7dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="54.3dp"
+        android:src="@drawable/ic_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:textColor="@color/midBlue"
+        android:textSize="20sp"
+        android:text="JSoup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="@dimen/editTextWidth"
+        android:layout_height="@dimen/editTextHeight"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/white_box"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="@dimen/editTextWidth"
+        android:layout_height="@dimen/editTextHeight"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white_box"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quote" />
+
+    <Button
+        android:id="@+id/get"
+        android:layout_width="@dimen/editTextWidth"
+        android:layout_height="@dimen/editTextHeight"
+        android:layout_marginTop="@dimen/editTextHeight"
+        android:background="@drawable/yellow_button"
+        android:onClick="scrape"
+
+        android:text="Scrape"
+        android:textColor="@color/white"
+        android:textSize="@dimen/smallText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/author" />
+
+    <!-- https://stackoverflow.com/questions/6105860/how-to-use-a-text-as-a-button-in-android -->
+</androidx.constraintlayout.widget.ConstraintLayout>
